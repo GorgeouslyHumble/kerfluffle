@@ -14,7 +14,7 @@ class WelcomeController < ApplicationController
       end
     end
 
-    @teemo
+    @teemo.lore
   end
 
   helper_method :return_teemo
